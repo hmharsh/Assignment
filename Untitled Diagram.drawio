@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T07:00:39.784Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="AP2EWWwZt96_gcTh6p1C" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T07:09:52.666Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OA2a76Vs9CePSYiyHnq-" version="20.4.1" type="github">
   <diagram id="K7IZljK8A2l5TkJoaFhM" name="Page-1">
     <mxGraphModel dx="1867" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,28 +40,28 @@
         <mxCell id="QI3T3QbzJS15OUEvv2_e-16" value="Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-532" y="393" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QI3T3QbzJS15OUEvv2_e-18" value="&lt;b&gt;Note&lt;/b&gt;: &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Choice of &lt;b&gt;Run time stack&lt;/b&gt; Depends on &lt;b&gt;Bot service provider&lt;/b&gt;, for example if we choose Azure as bot service provider, it support node.js and C# as backend&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp; &lt;b&gt;Run time stack &lt;/b&gt;provide APIs which will get consumed by bot service provider, now run time stack also needs to be hosted (as of now for POC, node js app is hosted using azure app service)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="530" width="840" height="130" as="geometry" />
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-18" value="&lt;b&gt;Note&lt;/b&gt;: &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.&amp;nbsp; Choice of &lt;b&gt;Run time stack&lt;/b&gt; Depends on &lt;b&gt;Bot service provider&lt;/b&gt;, for example if we choose Azure as bot service provider, it support node.js and C# as backed&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp; &lt;b&gt;Run time stack &lt;/b&gt;provide APIs which will get consumed by bot service provider, now run time stack also needs to be hosted (as of now for POC, node js app is hosted using azure app service)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3.&amp;nbsp; Entire dialog logic that bot is going to ask to user exists inside Run time stack&lt;/div&gt;&lt;div style=&quot;&quot;&gt;4.&amp;nbsp; For any new service/automation need to be associated with bot framework, there is going to be a 2 step process&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 1. The automation should be up running in CACF tower as a workflow template with necessary inputs supported as extra vars&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 2. In Run time stack (node.js app) the dialogs to gather all inputs and call to the job template with all collected inputs needs to be developed&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="590" width="840" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QI3T3QbzJS15OUEvv2_e-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-426" y="450" as="sourcePoint" />
-            <mxPoint x="-426" y="100" as="targetPoint" />
+            <mxPoint x="-426" y="510" as="sourcePoint" />
+            <mxPoint x="-426" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QI3T3QbzJS15OUEvv2_e-20" value="CACF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-377" y="160" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QI3T3QbzJS15OUEvv2_e-21" value="&lt;u&gt;Rest API call made from Run time stack to Trigger already existing workflow on CACF Tower&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-318" y="219" width="278" height="40" as="geometry" />
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-21" value="&lt;u&gt;Rest API call with &lt;b&gt;required inputs in request body&lt;/b&gt; made from Run time stack to Trigger already &lt;b&gt;existing workflow&lt;/b&gt; on CACF Tower&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-313" y="219" width="283" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QI3T3QbzJS15OUEvv2_e-22" value="&lt;u&gt;Patching framework&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-248" y="284" width="120" height="40" as="geometry" />
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-22" value="Patching framework workflow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-248" y="284" width="168" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QI3T3QbzJS15OUEvv2_e-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-482" y="333" as="sourcePoint" />
-            <mxPoint x="-318" y="239" as="targetPoint" />
+            <mxPoint x="-479" y="333" as="sourcePoint" />
+            <mxPoint x="-315" y="239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QI3T3QbzJS15OUEvv2_e-25" value="Network connectivity required" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="QI3T3QbzJS15OUEvv2_e-24">
@@ -81,8 +81,14 @@
             <mxPoint x="-530" y="332.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QI3T3QbzJS15OUEvv2_e-29" value="&lt;u&gt;Server provisioning&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-248" y="350" width="120" height="40" as="geometry" />
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-29" value="Server provisioning on Vcenter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-248" y="350" width="168" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-30" value="Server provisioning on AWS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="413" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-31" value="Server provisioning on Azure" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-248" y="470" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
