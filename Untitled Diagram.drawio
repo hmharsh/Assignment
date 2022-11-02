@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T06:38:27.072Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.4.1" etag="OVsTOc9uO0Vlde9ixW2W" type="github"><diagram id="K7IZljK8A2l5TkJoaFhM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-02T07:00:28.109Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="cS1G_DD3X9tiXLqMOou8" version="20.4.1" type="github">
+  <diagram id="K7IZljK8A2l5TkJoaFhM" name="Page-1">
+    <mxGraphModel dx="1867" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-1" value="&lt;b&gt;Teams&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-819" y="324" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-3" value="Slack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-819" y="360" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-4" value="&lt;u&gt;Communication channels&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-836" y="219" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-7" value="&lt;u&gt;Bot service provider&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-692" y="219" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-8" value="Bot framework" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="160" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-9" value="&lt;b&gt;Azure&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-672" y="323" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-10" value="AWS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-672" y="360" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-11" value="IBM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-672" y="393" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-12" value="&lt;u&gt;Run Time stack&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-552" y="219" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-14" value="&lt;b&gt;Node.js&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-532" y="323" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-15" value="C#" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-532" y="360" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-16" value="Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-532" y="393" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-18" value="&lt;b&gt;Note&lt;/b&gt;: &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Choice of &lt;b&gt;Run time stack&lt;/b&gt; Depends on &lt;b&gt;Bot service provider&lt;/b&gt;, for example if we choose Azure as bot service provider, it support node.js and C# as backend&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp; &lt;b&gt;Run time stack &lt;/b&gt;provide APIs which will get consumed by bot service provider, now run time stack also needs to be hosted (as of now for POC, node js app is hosted using azure app service)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="530" width="840" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-426" y="450" as="sourcePoint" />
+            <mxPoint x="-426" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-20" value="CACF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-377" y="160" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-21" value="&lt;u&gt;Rest API call made from Run time stack to Trigger already existing workflow on CACF Tower&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-318" y="219" width="278" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-22" value="&lt;u&gt;Patching framework&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-248" y="284" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-482" y="333" as="sourcePoint" />
+            <mxPoint x="-318" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-25" value="Network connectivity required" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="QI3T3QbzJS15OUEvv2_e-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QI3T3QbzJS15OUEvv2_e-1" target="QI3T3QbzJS15OUEvv2_e-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-769" y="340" as="sourcePoint" />
+            <mxPoint x="-719" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QI3T3QbzJS15OUEvv2_e-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-627" y="333.5" as="sourcePoint" />
+            <mxPoint x="-530" y="332.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QI3T3QbzJS15OUEvv2_e-29" value="&lt;u&gt;Server provisioning&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-248" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
