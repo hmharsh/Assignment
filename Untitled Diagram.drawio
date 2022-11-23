@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T07:13:08.586Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.5.1" etag="7NQPrGpfpMOaZ6R55FYD" type="github"><diagram id="bCWeRkZKJCgRrYZdxzuW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-23T08:35:20.133Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="1Iz0NvF6Wle5yPRsGAbC" version="20.5.1" type="github">
+  <diagram id="bCWeRkZKJCgRrYZdxzuW" name="Page-1">
+    <mxGraphModel dx="1017" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-259" width="810" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.617;entryY=0.169;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_qOI2_DLGD3CErwUIOaF-2" target="_qOI2_DLGD3CErwUIOaF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-2" value="&lt;b&gt;1. Understand&lt;/b&gt; steps involved in existing patching process for new account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-230" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-4" value="&lt;b&gt;2. Classify&lt;/b&gt; the identified steps into 12 pre-defined sub-stages of patching&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-103" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_qOI2_DLGD3CErwUIOaF-5" target="_qOI2_DLGD3CErwUIOaF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-5" value="&lt;b&gt;3.&lt;/b&gt; Based on existing steps involved in patching, configure &lt;b&gt;input file&lt;/b&gt; using &lt;a href=&quot;https://github.kyndryl.net/Innovate/Full-Stack-Patching/blob/dev/vars_template.yml&quot;&gt;template&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="321" as="sourcePoint" />
+            <mxPoint x="355" y="391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-6" value="&lt;b&gt;4.&lt;/b&gt; Deploy workflow on account using steps mentioned in the &#39;Deployment&#39; section of &lt;a href=&quot;https://github.kyndryl.net/Innovate/Full-Stack-Patching/tree/dev#deployment&quot;&gt;Readme&lt;/a&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="240" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-11" value="&lt;b&gt;5.&lt;/b&gt; &lt;b&gt;Supply&lt;/b&gt; the input file designed in the step-3 as extra-vars/&lt;b&gt;input&lt;/b&gt; in ansible tower" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="390" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_qOI2_DLGD3CErwUIOaF-15" target="_qOI2_DLGD3CErwUIOaF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_qOI2_DLGD3CErwUIOaF-15" target="_qOI2_DLGD3CErwUIOaF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-15" value="Specific/Custom &lt;b&gt;requirements&lt;/b&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="150" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-18" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="398" y="185" width="27.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_qOI2_DLGD3CErwUIOaF-20" target="_qOI2_DLGD3CErwUIOaF-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-20" value="&lt;b&gt;4. Gather the requirements &lt;/b&gt;/ customization required&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-22" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="184" width="27.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_qOI2_DLGD3CErwUIOaF-23" target="_qOI2_DLGD3CErwUIOaF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-23" value="&lt;b&gt;5. Develop&lt;/b&gt; the automation for custom requirement and add as feature to existing framework in &lt;b&gt;generic&lt;/b&gt; way&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="380" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_qOI2_DLGD3CErwUIOaF-26" value="&lt;b&gt;5.&lt;/b&gt;&amp;nbsp;After&amp;nbsp;&lt;b&gt;Deployment&lt;/b&gt;&amp;nbsp;on ansible tower gets completed, frame-work is ready to use, still in case of any failure refer the return code table mentioned in the readme" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285.5" y="520" width="140" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
